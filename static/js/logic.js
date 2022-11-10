@@ -65,7 +65,7 @@ d3.json(url).then(function (data) {
         }
         L.circle([features[i].geometry.coordinates[1], features[i].geometry.coordinates[0]], {
             fillOpacity: 1,
-            color: "black",
+            color: fillcolor,
             weight: 0.75,
             opacity: 0.75,
             fillColor: fillcolor,
